@@ -6,5 +6,5 @@ from time import sleep
 
 keyboard = Keyboard(usb_hid.devices)
 
-sleep(4.2)
+sleep(42 / 10)
 keyboard.send(Keycode.N, Keycode.FOUR, Keycode.TWO)
